@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import MyComponent from './Mapa'
+import ComplexGrid from './components/Perdidos'
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( 
+    <div className='container-Principal' >
+     <div>
+    <Header />
+    </div>
+    <div className='mapa'>
+    <MyComponent/>
+    </div>
+    <div>
+      <ComplexGrid/>
+    </div>
     </div>
   );
+ 
 }
 
 export default App;
+

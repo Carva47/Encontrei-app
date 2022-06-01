@@ -1,0 +1,130 @@
+.Card{
+    margin-left:330px;
+    padding: 10px;
+    display:block;
+    align-items: center;
+    margin-top: 50px;
+}
+.divisor{
+    color: transparent;
+    margin: 2px;
+   }
+.divisor1{
+ margin-bottom: 10px;
+ border-radius: 12px;
+ border: 2px solid #0057ff;
+ padding: 5px;
+ cursor: default; 
+}
+.divisor2{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 2px solid #0057ff;
+    padding: 5px;
+    cursor: default; 
+}
+
+.Card .btn{
+    background:#0057ff;
+    padding: 7px 15px 7px 15px;
+    margin-top:-80px;
+    color: #fff;
+    border: #0057ff;
+    border-radius: 9px; 
+    font-size: 15px;  
+    cursor: pointer; 
+    margin-left: 45px;
+}
+.Card .btn:hover{
+    background:#fff;
+    padding: 7px 15px 7px 15px;
+    margin-top:-80px;
+    color: #0057ff;
+    border: 2px solid #0057ff;
+    border-radius: 9px; 
+    font-size: 15px;  
+    cursor: pointer; 
+}
+img{
+    width:159px;
+}
+.btn-AchadoPerdido{
+    background-color: #999999;
+    color: #1b1a1a;
+    border-radius:12px;
+    padding:2px 6px 2px 6px;
+    width: 100px; 
+    display: flex;
+    border-color: transparent;
+    cursor: pointer;
+   margin-top:-50px;
+   margin-bottom: 50px;
+   margin-left:4px;
+}
+.btn-AchadoPerdido button{
+    background-color: #999999;
+    border-radius:10px;
+    padding:3px 8px 3px 4px;
+    font-size: 12px;
+    border-color: transparent;
+    cursor: pointer;
+    margin-left: 1.5px;
+    margin-right:-2px;
+    
+}
+.btnPerdido:hover{
+    background-color:white;
+    color: #0057ff;
+    border-radius:10px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight:500; 
+    border-color: transparent;
+    cursor: pointer;
+}
+.btnAchado:hover{
+    background-color:white;
+    color: #0057ff;
+    border-radius:10px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight:500; 
+    border-color: transparent;
+    cursor: pointer;
+}
+.cheked{
+    display: flex;
+    margin-top:-85px;
+    margin-bottom:30px;
+    margin-left:110px;
+}
+.escolhaBtnChek{
+  display:block;
+}
+.title{
+    margin-top:-30px;
+    margin-bottom:10px;
+    color: #0057ff;
+}
+.MoreW{ 
+    color: #0057ff;
+    text-align: center;
+    cursor:pointer ;
+    margin-bottom:-20px;
+}
+.MoreW h2{ 
+    color: #0057ff;
+    text-align: center;
+    cursor:pointer ;
+    margin-bottom:50px;
+} 
+.MoreW button{ 
+    color: #0057ff;
+    text-align: center;
+    cursor:pointer ;
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight:700;
+    
+}

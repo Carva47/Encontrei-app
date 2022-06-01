@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    margin-left:915px;
+    margin-top: 20px;
+}
+.container li{
+    display: inline;
+    list-style: none;
+    margin-left:0.5px;  
+}
+.container button{
+    padding: 3px;
+    font-size: 14px;
+    background: transparent;
+    color: #0057ff;
+    border: none;
+    font-weight: 700;
+
+}
+.container button:hover{
+    font-size: 16px;
+    color: #0057ff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.container .cd{
+    border: 1px;
+    background: #0057ff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 7px 3px 7px;
+    cursor: pointer;
+}
+.container .cd:hover{
+    border: 1px;
+    background: #0057ff;
+    color:#fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
