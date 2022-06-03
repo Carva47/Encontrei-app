@@ -1,9 +1,7 @@
 import './App.css';
 import Header from './components/Header';
-import MyComponent from './Mapa'
+import MyComponent from './Mapa';
 import ComplexGrid from './components/Perdidos'
-
-
 
 function App() {
   return ( 
@@ -19,7 +17,6 @@ function App() {
     </div>
     </div>
   );
- 
 }
 
 export default App;

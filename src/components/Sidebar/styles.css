@@ -1,4 +1,3 @@
-
   .titulo{
       display:block;
       height:100px;
@@ -227,6 +226,7 @@
     background: -moz-linear-gradient(to left, #fff, #bdbebe);
     background: linear-gradient(to left,  #fff, #ffff);
     margin-top:-13px;
+    margin-left:-12px;
   }
   
   .form-btn:hover {

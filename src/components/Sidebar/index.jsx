@@ -24,7 +24,7 @@ const Sidebar = ({ active }) => {
           </div>   
           <div className="Janela-Esquerda">
             <div>
-            <h2 className="txt-perguntas1"> Achado ou Perdido ?</h2> 
+            <h2 className="txt-perguntas1"> Achou ou Perdeu ?</h2> 
           <div className="btn-Achado-Perdido">                
               <button className="btn-Achado">Achei</button>
               <button className="btn-Perdido" >Perdi</button>
@@ -33,7 +33,7 @@ const Sidebar = ({ active }) => {
               </div>
             <form className="form-Esquerda">   
 
-            <h2 className="txt-perguntas"> O que você perdeu ?</h2>
+            <h2 className="txt-perguntas">O que você perdeu ?</h2>
   
               <div className="divisor-input">
                 <input
@@ -45,7 +45,7 @@ const Sidebar = ({ active }) => {
                 <span className="foco" data-placeholder="Ex:.Bilhete de indentidade"></span>
               </div>
   
-              <h2 className="txt-perguntas"> O que você perdeu ?</h2>
+              <h2 className="txt-perguntas">Onde foi ?</h2>
               <div className="divisor-input">
                 <input
                   className={local !== "" ? "has-val input" : "input"}
@@ -55,7 +55,7 @@ const Sidebar = ({ active }) => {
                 />
                 <span className="foco" data-placeholder="Rua José Pirão-Luanda"></span>
               </div>            
-            <h2 className="txt-perguntas"> O que você perdeu ?</h2>
+            <h2 className="txt-perguntas">Quando ?</h2>
               <div className="divisor-input">
                 <input
                   className={quando !== "" ? "has-val input" : "input"}

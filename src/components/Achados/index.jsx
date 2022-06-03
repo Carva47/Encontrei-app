@@ -21,10 +21,14 @@ const Img = styled('img')({
   display: 'flex',
 });
 
-export default function ComplexGrid() {
+export default function Complex() {
   return (
     <div className='Card'>
         <div className='escolhaBtnChek'>
+         <div className="btn-AchadoPerdido">                
+              <button className="btnAchado">Achei</button>
+              <button className="btnPerdido">Perdi</button>
+              </div> 
               <div className='cheked'>
               <Checkboxes/>
               </div>
